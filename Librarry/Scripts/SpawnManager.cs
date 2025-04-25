@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManager : MonoBehaviour
+public class SpawnManager :MonoBehaviour
 {
     [SerializeField] private GameObject[] _animalPrefabs;
+    [SerializeField] private Test _test;
 
     private float _spawnPositionX = 10;
     private float _spawnPositionZ = 14;
