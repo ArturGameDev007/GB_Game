@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class IndicateDirectionWeapon :MonoBehaviour
+public class IndicateDirectionWeapon : MonoBehaviour
 {
     [SerializeField] private float _speed = 5.0f;
 

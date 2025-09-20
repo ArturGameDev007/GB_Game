@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DestroyOutOfBounds : MonoBehaviour
@@ -9,10 +7,10 @@ public class DestroyOutOfBounds : MonoBehaviour
 
     private void Update()
     {
-        OnDestroy(); 
+        DestroyBound();
     }
 
-    private void OnDestroy()
+    private void DestroyBound()
     {
         if (transform.position.z > _topBopund)
         {
